@@ -1,0 +1,171 @@
+* { 
+    -webkit-box-sizing: border-box; 
+    -moz-box-sizing: border-box; 
+    box-sizing: border-box; 
+    margin: 0 auto;
+}
+
+/*color: #9B59B6; purple*/
+
+body {
+    background-image: url("images/background04.jpg");
+}
+
+/*container for style for header text*/
+.title {
+    max-width: 75%;
+    padding: 5%;
+}
+
+/*container for the input fields*/
+#bands {
+    max-width: 75%;
+    padding: 5%;
+}
+
+/*header text*/
+h1 {
+    color: #F1C40F; /*yellow*/
+    text-align: left;
+    text-shadow:
+    0 .005em #e9cac7,
+    -.005em 0 #c9d5db,
+    -.005em .010em #fff,
+    -.010em .005em #c9d5db,
+    -.010em .015em #fff,
+    -.015em .010em #c9d5db,
+    -.015em .020em #fff,
+    -.020em .015em #c9d5db,
+    -.020em .025em #fff,
+    -.025em .020em #c9d5db,
+    -.025em .030em #fff,
+    -.030em .025em #c9d5db,
+    -.030em .035em #fff,
+    -.035em .030em #c9d5db,
+    -.035em .040em #fff,
+    -.040em .035em #c9d5db,
+    -.040em .045em #fff,
+    -.045em .040em #c9d5db,
+    -.045em .050em #fff,
+    -.050em .045em #c9d5db;
+    letter-spacing: 0.02em;
+    font-weight: 900;
+    font-size: 6.5em;
+    font-family: "Source Sans Pro"; 
+    line-height: 0.75em;
+    text-transform: uppercase;
+}
+
+.letters {
+    color: #E74C3C;
+}
+
+h2 {
+    margin-bottom: -50px;
+    margin-bottom: 5%;
+    color: #F1C40F; /*yellow*/
+    padding-left: 1%;
+    font-weight: 900;
+    font-weight: 900;
+    font-size: 2em;
+    font-family: "Source Sans Pro";
+}
+
+p {
+   /* padding: 1%;*/
+    color: #2980B9; /*blue*/
+    text-align: center;
+    font-weight: 900;
+    font-size: 1em;
+    font-family: "Source Sans Pro";
+}
+
+/*INPUT FORM HERE INPUT FORM HERE*/
+.inputForm {
+    margin: 0 auto;
+    color: #2980B9;/*blue*/
+}
+
+
+#ajaxResponseSpan {
+    color: #E74C3C;
+}
+
+a {
+    color: #E74C3C;
+    text-decoration: none;
+}
+
+p.pink {
+    color: green;
+}
+
+.pink p {
+    color: hotpink;
+}
+
+/*left + right button*/
+#enterArtist,
+#submitButton {
+    margin: 1%;
+    padding: 3%;
+    width: 100%;
+    border: none;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+#enterArtist:focus,
+#submitButton:focus {
+    outline: 0;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+/*left button*/
+#enterArtist {
+    min-height: 125px;
+    background-color: rgba(255, 255, 255, 0.5);
+    letter-spacing: 0.02em;
+    font-weight: 900;
+    font-size: 2.25em;
+    font-family: "Source Sans Pro";
+    color: #E74C3C; /*orange*/
+}
+
+
+
+/*right button*/
+#submitButton {
+    padding: 1%;
+    max-height: 55px;
+    color: #F1C40F;
+    font-weight: 200;
+    font-size: 1.25em;
+    font-family: "Source Sans Pro";
+}
+
+#submitButton:hover {
+    background-color: #F1C40F;
+    color: #fff;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.15);
+    color: #2980B9;
+}
+
+footer p {
+    padding: 1.5%;
+    color: rgba(255, 255, 255, 0.5);
+    text-align: left;
+    font-weight: 300;
+    font-style: italic;
+    font-size: 0.75em;
+}
+
+footer a {
+    color: rgba(255, 255, 255, 0.5);
+    text-decoration: none;
+}
